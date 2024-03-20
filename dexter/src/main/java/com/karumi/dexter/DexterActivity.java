@@ -24,12 +24,14 @@ import android.os.Build;
 import android.os.Bundle;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.PermissionChecker;
+import androidx.fragment.app.FragmentActivity;
+
 import android.view.WindowManager;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
 
-public final class DexterActivity extends Activity
+public final class DexterActivity extends FragmentActivity
     implements ActivityCompat.OnRequestPermissionsResultCallback {
 
   @Override protected void onCreate(Bundle savedInstanceState) {
